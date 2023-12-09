@@ -1,2 +1,2 @@
-# chatsrv
+# ncatchat
 An ncat chat server
