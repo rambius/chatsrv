@@ -1,4 +1,2 @@
 #!/bin/sh
-mydir=$(dirname $(readlink -f $0))
-. ${mydir}/ncatchatcmn.sh
-/usr/pkg/bin/ncat ${host} ${port} 
+/usr/pkg/bin/ncat localhost 9876
